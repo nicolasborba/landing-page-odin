@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #1F2937;
+  --secondary-color: #E5E7EB;
+  --alt-color: #F9FAF8;
+  --cta-color: #3882F6;
+}
+
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header, .hero {
+  background-color: var(--primary-color);
+}
+
+.header-left, .hero-left h1 {
+  color: var(--alt-color);
+}
+
+.header-right a, .hero-right, .hero-left p, .hero-left button {
+  color: var(--secondary-color);
+}
+
+.hero-left button {
+  background-color: var(--cta-color);
+}
+
+.hero-left h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
