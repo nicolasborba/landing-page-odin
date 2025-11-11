@@ -13,6 +13,11 @@
   list-style-type: none;
 }
 
+
+.header, .header-right ul, .hero, .hero-left, .hero-right { /* general flex */
+  display: flex;
+}
+
 .header, .hero {
   background-color: var(--primary-color);
 }
@@ -32,4 +37,27 @@
 .hero-left h1 {
   font-weight: 900;
   font-size: 48px;
+}
+
+.header, .hero { /* general padding */
+  padding: 16px 10vw;
+}
+
+.header, .hero {
+  justify-content: space-between;
+}
+
+.header-right ul {
+  flex-flow: row nowrap;
+  gap: 16px;
+  font-size: 18px;
+}
+
+.hero-left {
+  flex-flow: column nowrap;
+  width: 40vw;
+}
+
+.hero-right {
+  width: 40vw;
 }
