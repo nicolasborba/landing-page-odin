@@ -53,11 +53,15 @@
   font-size: 18px;
 }
 
+.header-left {
+  font-size: 24px;
+}
+
 .hero-left {
   flex-flow: column nowrap;
-  width: 40vw;
+  width: 30vw;
 }
 
 .hero-right {
-  width: 40vw;
+  width: 30vw;
 }
