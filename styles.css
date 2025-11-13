@@ -43,7 +43,7 @@
   padding: 16px 10vw;
 }
 
-.header, .hero {
+.header {
   justify-content: space-between;
 }
 
@@ -55,13 +55,24 @@
 
 .header-left {
   font-size: 24px;
+  font-weight: 900;
 }
 
 .hero-left {
   flex-flow: column nowrap;
-  width: 30vw;
+  width: 45vw;
 }
 
 .hero-right {
-  width: 30vw;
+  width: 45vw;
+}
+
+.hero {
+  justify-content: center;
+  padding-top: 100px;
+  gap: 100px
+}
+
+.hero-right img {
+  width: 100%;
 }
