@@ -61,6 +61,7 @@
 .hero-left {
   flex-flow: column nowrap;
   width: 45vw;
+  gap: 8px;
 }
 
 .hero-right {
@@ -75,4 +76,36 @@
 
 .hero-right img {
   width: 100%;
+}
+
+.hero-left button {
+  width: 80px;
+  font-weight: bold;
+}
+
+.information {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 64px;
+  padding-top: 32px;
+  gap: 40px;
+  width: 66vw;
+  margin: auto;
+}
+
+.information-bottom {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.information-bottom div div {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-justify: center;
 }
