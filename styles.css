@@ -39,6 +39,12 @@
   font-size: 48px;
 }
 
+.hero-left p {
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+
 .header, .hero { /* general padding */
   padding: 16px 10vw;
 }
@@ -70,7 +76,7 @@
 
 .hero {
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 50px;
   gap: 100px
 }
 
@@ -93,6 +99,9 @@
   gap: 40px;
   width: 66vw;
   margin: auto;
+  font-size: 36px;
+  color: var(--primary-color);
+  font-weight: 900;
 }
 
 .information-bottom {
