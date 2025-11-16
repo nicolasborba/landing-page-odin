@@ -118,3 +118,10 @@
   align-items: center;
   text-justify: center;
 }
+
+.quote {
+  background-color: var(--secondary-color);
+  font-size: 36px;
+  color: var(--primary-color);
+  font-weight: 300;
+}
