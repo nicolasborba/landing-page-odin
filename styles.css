@@ -120,8 +120,25 @@
 }
 
 .quote {
+  display: flex;
   background-color: var(--secondary-color);
   font-size: 36px;
   color: var(--primary-color);
   font-weight: 300;
+  margin: auto;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.quote-text {
+  width: 66vw;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.quote-bottom {
+  display: flex;
+  justify-content: flex-end;
+  
 }
