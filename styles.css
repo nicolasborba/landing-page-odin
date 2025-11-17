@@ -122,9 +122,6 @@
 .quote {
   display: flex;
   background-color: var(--secondary-color);
-  font-size: 36px;
-  color: var(--primary-color);
-  font-weight: 300;
   margin: auto;
   justify-content: center;
   padding-top: 80px;
@@ -137,8 +134,55 @@
   flex-flow: column nowrap;
 }
 
+.quote-top {
+  font-size: 36px;
+  color: var(--primary-color);
+  font-weight: 300;
+  font-style: italic;
+}
+
 .quote-bottom {
   display: flex;
   justify-content: flex-end;
+  font-size: 24px;
+  font-weight: 700;
   
+}
+
+.cta {
+  background-color: var(--cta-color);
+  margin:  60px 10vw 60px 10vw;
+}
+
+.cta-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--alt-color);
+  padding: 40px 100px 40px 100px;
+}
+
+.cta-top {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.cta-button button {
+  padding: 6px 24px;
+  background-color: var(--cta-color);
+  color: var(--alt-color);
+  font-weight: 900;
+  border-color: var(--alt-color);
+  border-style: ridge;
+  border-width: 0.3cap;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  background-color: var(--primary-color);
+  color: var(--alt-color);
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
