@@ -13,6 +13,14 @@
   list-style-type: none;
 }
 
+.container {
+  background-color: var(--primary-color);
+}
+
+.header {
+  width: 1024px;
+  margin: auto;
+}
 
 .header, .header-right ul, .hero, .hero-left, .hero-right { /* general flex */
   display: flex;
