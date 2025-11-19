@@ -13,11 +13,20 @@
   list-style-type: none;
 }
 
-.container {
+.container-large {
   background-color: var(--primary-color);
 }
 
-.header {
+.container-large-alt {
+  display: flex;
+  justify-content: center;
+}
+
+.container-small {
+  background-color: var(--secondary-color);
+}
+
+.header, .hero, .cta {
   width: 1024px;
   margin: auto;
 }
@@ -74,18 +83,17 @@
 
 .hero-left {
   flex-flow: column nowrap;
-  width: 45vw;
-  gap: 8px;
+  width: 42vw;
 }
 
 .hero-right {
-  width: 45vw;
+  width: 48vw;
 }
 
 .hero {
   justify-content: center;
-  padding-top: 80px;
-  gap: 100px;
+  padding-top: 100px;
+  gap: 48px;
   padding-bottom: 120px;
 }
 
@@ -96,7 +104,8 @@
 }
 
 .hero-left button {
-  width: 120px;
+  margin-top: 16px;
+  width: 130px;
   font-weight: bold;
   padding: 8px 10px;
   background-color: var(--cta-color);
@@ -147,12 +156,13 @@
 }
 
 .information-img div img {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   object-fit: cover;
-  border-style: ridge;
+  border-style: solid;
   border-color: var(--cta-color);
   border-radius: 16px;
+  border-width: 4px;
 }
 
 .information-img div p {
@@ -169,6 +179,9 @@
   justify-content: center;
   padding-top: 80px;
   padding-bottom: 80px;
+  padding-left: 16px;
+  width: 792px;
+  margin: auto;
 }
 
 .quote-text {
@@ -195,6 +208,7 @@
 .cta {
   background-color: var(--cta-color);
   margin:  60px 10vw 60px 10vw;
+  border-radius: 8px;
 }
 
 .cta-main {
@@ -202,7 +216,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--alt-color);
-  padding: 40px 100px 40px 100px;
+  padding: 52px 116px 52px 116px;
 }
 
 .cta-top {
@@ -220,7 +234,7 @@
   color: var(--alt-color);
   font-weight: 900;
   border-color: var(--alt-color);
-  border-style: ridge;
+  border-style: solid;
   border-width: 0.3cap;
   font-size: 16px;
   border-radius: 8px;
